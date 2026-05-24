@@ -15,6 +15,8 @@ This repository contains the intelligence layer for the "Closira" customer commu
 * Python 3.9+
 * An [OpenRouter API Key](https://openrouter.ai/)
 
+* I utilized OpenRouter as the API gateway for this agent. This was a strategic choice to ensure model-agnosticism; by decoupling the agent logic from a single provider (like OpenAI or Anthropic), I can easily swap between different LLMs (e.g., Llama 3.1, GPT-4o, Claude) to optimize for cost, speed, or performance without needing to rewrite the core codebase.
+
 ### Installation
 1. **Clone the repository:**
    ```bash
