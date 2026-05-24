@@ -23,8 +23,8 @@ This repository contains the intelligence layer for the "Closira" customer commu
    pip install -r requirements.txt
 
 2. **Configure Environment::**
-    Create a .env file in the root directory and add your key:
-    OPENROUTER_API_KEY=sk-or-v1-your-key-here
+    * Create a .env file in the root directory and add your key:
+    * OPENROUTER_API_KEY=sk-or-v1-your-key-here
 
 3. **Run the agent::**
     ```bash
